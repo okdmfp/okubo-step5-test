@@ -1,0 +1,33 @@
+body {
+  font-family: 'Hiragino Kaku Gothic Pro', Meiryo, sans-serif;
+  padding: 20px;
+  transition: background-color 0.5s;
+}
+
+#displayArea {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  min-height: 50px;
+}
+
+.highlight {
+  background-color: yellow;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+button {
+  margin: 5px 5px 0 0;
+  cursor: pointer;
+}
