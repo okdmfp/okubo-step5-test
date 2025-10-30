@@ -44,10 +44,6 @@
     displayArea.textContent = text;
     displayArea.classList.toggle('highlight');
     addTableRow(text);
-    console.log('--- ループ表示 ---');
-    for (let i = 1; i <= 5; i++) {
-      console.log(`ループ回数: ${i}`);
-    }
     inputText.value = '';
   });
 
